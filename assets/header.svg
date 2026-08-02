@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Niyati Singh — AI and Data Science Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#160E2E"/>
+      <stop offset="100%" stop-color="#1E1145"/>
+    </linearGradient>
+
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EDE9FE"/>
+      <stop offset="50%" stop-color="#C4B5FD"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4C1D95" stop-opacity=".85"/>
+      <stop offset="50%" stop-color="#6D28D9" stop-opacity=".85"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity=".85"/>
+    </linearGradient>
+
+    <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".45"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity=".45"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity=".45"/>
+    </linearGradient>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="42%" r="58%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".30"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#A78BFA" fill-opacity=".14"/>
+    </pattern>
+
+    <clipPath id="frame">
+      <rect width="1200" height="320" rx="16"/>
+    </clipPath>
+
+    <clipPath id="nameClip">
+      <text x="600" y="150" text-anchor="middle"
+            font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="76" font-weight="700" letter-spacing="7">NIYATI SINGH</text>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+
+    <!-- flowing waves: two offset sine bands drifting in opposite directions,
+         kept below y=270 so they never collide with the chip row -->
+    <g opacity=".9">
+      <path fill="url(#waveA)"
+            d="M-600,286 C-450,266 -300,306 -150,286 C0,266 150,306 300,286 C450,266 600,306 750,286 C900,266 1050,306 1200,286 C1350,266 1500,306 1650,286 C1800,266 1950,306 2100,286 L2100,320 L-600,320 Z">
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 600 0" dur="11s" repeatCount="indefinite"/>
+      </path>
+      <path fill="url(#waveB)"
+            d="M-600,298 C-450,284 -300,312 -150,298 C0,284 150,312 300,298 C450,284 600,312 750,298 C900,284 1050,312 1200,298 C1350,284 1500,312 1650,298 C1800,284 1950,312 2100,298 L2100,320 L-600,320 Z">
+        <animateTransform attributeName="transform" type="translate"
+                          values="600 0; 0 0" dur="15s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- eyebrow -->
+    <text x="600" y="76" text-anchor="middle"
+          font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace"
+          font-size="15" letter-spacing="6.5" fill="#A78BFA" fill-opacity=".95">B.TECH · AI &amp; DATA SCIENCE · 2024–2028</text>
+
+    <!-- name -->
+    <text x="600" y="150" text-anchor="middle"
+          font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="76" font-weight="700" letter-spacing="7" fill="url(#nameFill)">NIYATI SINGH</text>
+
+    <!-- sheen sweeping across the name only -->
+    <g clip-path="url(#nameClip)">
+      <rect x="-360" y="80" width="300" height="90" fill="url(#sheen)">
+        <animate attributeName="x" values="-360;1240" dur="5.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <rect x="360" y="172" width="480" height="1.5" fill="url(#rule)"/>
+
+    <!-- role -->
+    <text x="600" y="206" text-anchor="middle"
+          font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="21" font-weight="600" letter-spacing="1.5" fill="#EDE9FE" fill-opacity=".93">AI &amp; Data Science Engineer</text>
+
+    <!-- discipline chips. Monospace advance at 11px is ~6.6px + 1.6 letter-spacing
+         = 8.2px/char; pill widths are sized from that so text never overflows. -->
+    <g font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace"
+       font-size="11" letter-spacing="1.6" fill="#C4B5FD" text-anchor="middle">
+      <g transform="translate(406,244)">
+        <rect x="-79.5" y="-14" width="159" height="28" rx="14" fill="#8B5CF6" fill-opacity=".13" stroke="#8B5CF6" stroke-opacity=".42"/>
+        <text y="4" dx="0.8">MACHINE LEARNING</text>
+      </g>
+      <g transform="translate(567,244)">
+        <rect x="-67.5" y="-14" width="135" height="28" rx="14" fill="#8B5CF6" fill-opacity=".13" stroke="#8B5CF6" stroke-opacity=".42"/>
+        <text y="4" dx="0.8">DEEP LEARNING</text>
+      </g>
+      <g transform="translate(724,244)">
+        <rect x="-75.5" y="-14" width="151" height="28" rx="14" fill="#8B5CF6" fill-opacity=".13" stroke="#8B5CF6" stroke-opacity=".42"/>
+        <text y="4" dx="0.8">COMPUTER VISION</text>
+      </g>
+      <g transform="translate(843.5,244)">
+        <rect x="-30" y="-14" width="60" height="28" rx="14" fill="#8B5CF6" fill-opacity=".13" stroke="#8B5CF6" stroke-opacity=".42"/>
+        <text y="4" dx="0.8">NLP</text>
+      </g>
+    </g>
+
+    <rect width="1200" height="320" rx="16" fill="none" stroke="#8B5CF6" stroke-opacity=".28" stroke-width="1.5"/>
+  </g>
+</svg>
