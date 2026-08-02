@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-label="A model that never ships is just an expensive opinion">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#160E2E"/>
+      <stop offset="100%" stop-color="#1E1145"/>
+    </linearGradient>
+
+    <linearGradient id="fwaveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".85"/>
+      <stop offset="50%" stop-color="#6D28D9" stop-opacity=".85"/>
+      <stop offset="100%" stop-color="#4C1D95" stop-opacity=".85"/>
+    </linearGradient>
+
+    <linearGradient id="fwaveB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity=".45"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity=".45"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity=".45"/>
+    </linearGradient>
+
+    <radialGradient id="fglow" cx="50%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".26"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="fgrid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#A78BFA" fill-opacity=".12"/>
+    </pattern>
+
+    <clipPath id="fframe">
+      <rect width="1200" height="160" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#fframe)">
+    <rect width="1200" height="160" fill="url(#fbg)"/>
+    <rect width="1200" height="160" fill="url(#fgrid)"/>
+    <rect width="1200" height="160" fill="url(#fglow)"/>
+
+    <!-- mirrored wave band along the top edge -->
+    <g opacity=".9">
+      <path fill="url(#fwaveA)"
+            d="M-600,34 C-450,54 -300,14 -150,34 C0,54 150,14 300,34 C450,54 600,14 750,34 C900,54 1050,14 1200,34 C1350,54 1500,14 1650,34 C1800,54 1950,14 2100,34 L2100,-40 L-600,-40 Z">
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 600 0" dur="13s" repeatCount="indefinite"/>
+      </path>
+      <path fill="url(#fwaveB)"
+            d="M-600,22 C-450,36 -300,8 -150,22 C0,36 150,8 300,22 C450,36 600,8 750,22 C900,36 1050,8 1200,22 C1350,36 1500,8 1650,22 C1800,36 1950,8 2100,22 L2100,-40 L-600,-40 Z">
+        <animateTransform attributeName="transform" type="translate"
+                          values="600 0; 0 0" dur="17s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <text x="600" y="96" text-anchor="middle"
+          font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="20" font-style="italic" fill="#EDE9FE" fill-opacity=".92">“A model that never ships is just an expensive opinion.”</text>
+
+    <text x="600" y="128" text-anchor="middle"
+          font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace"
+          font-size="11.5" letter-spacing="4" fill="#8B949E">NIYATI SINGH · NEW DELHI · INDIA</text>
+
+    <rect width="1200" height="160" rx="16" fill="none" stroke="#8B5CF6" stroke-opacity=".28" stroke-width="1.5"/>
+  </g>
+</svg>
