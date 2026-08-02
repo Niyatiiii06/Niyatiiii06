@@ -1,286 +1,318 @@
-<div align="center">
+�
+
+�
+￼
+�
+￼ 
+�
+
+
+�
+￼ ￼ ￼
+
+
+
+�
+￼ ￼ ￼ ￼ 
+
+
+
+�
+￼ ￼ ￼
+�
+
+ About
+class NiyatiSingh:
+    def __init__(self):
+        self.role      = "AI & Data Science Engineer"
+        self.education = "B.Tech, AI & Data Science (2024–2028)"
+        self.focus     = ["Machine Learning", "Deep Learning", "Computer Vision", "NLP"]
+        self.stack     = ["Python", "TensorFlow/Keras", "Scikit-learn", "Streamlit"]
+        self.mindset   = "Ship models that survive contact with real data."
+I build end-to-end machine learning systems — from raw data and exploratory analysis through model training, evaluation, and live deployment. My work sits at the intersection of applied AI research and product engineering: I care as much about ROC-AUC and generalization as I do about the interface a user actually touches.
+Machine Learning Engineering — supervised, unsupervised, and ensemble methods with rigorous evaluation (ROC-AUC, F1, precision/recall, threshold analysis) and imbalance handling via SMOTE.
+Deep Learning & Computer Vision — ANN/CNN/RNN architectures in TensorFlow/Keras, pose estimation pipelines with MediaPipe and OpenCV, early stopping and validation monitoring against overfitting.
+Natural Language Processing — TF-IDF vectorization, cosine similarity, semantic feature engineering, sentiment analysis, and text classification at 80K+ record scale.
+Product Engineering Mindset — every model I train gets deployed. Three production Streamlit applications, live and publicly accessible, with session analytics and automated reporting.
+Data Analysis & Storytelling — EDA, correlation analysis, statistical inference, and Power BI dashboards that turn model output into decisions.
+�
+
+Open To
+�
+￼ ￼ ￼ ￼
+�
+
+ Tech Stack
+�
+
+Languages
+�
+￼
+Machine Learning & Deep Learning
+�
+￼
+Data & Scientific Computing
+�
+￼ ￼ ￼ ￼ ￼ ￼ ￼
+Deployment, Tooling & Analytics
+�
+￼ ￼ ￼ ￼ ￼ ￼
+�
+
+ AI / ML Expertise
+�
+
+Domain
+Proficiency
+Details
+Supervised Learning
+�
+Classification & regression, Random Forest, KNN, Logistic Regression, ensemble learning
+Deep Learning
+�
+ANN, CNN, RNN in TensorFlow/Keras — early stopping, feature scaling, validation monitoring
+Computer Vision
+�
+MediaPipe pose estimation, OpenCV video pipelines, joint-angle biomechanical analysis
+Model Evaluation
+�
+ROC-AUC, F1, precision/recall, confusion matrix, threshold analysis, R², SMOTE
+Natural Language Processing
+�
+TF-IDF vectorization, cosine similarity, sentiment analysis, text classification
+Feature Engineering
+�
+Semantic descriptors, PCA-transformed features, imbalance correction, scaling strategies
+Unsupervised Learning
+�
+Clustering, Nearest Neighbors similarity search, dimensionality reduction
+Statistical Analysis
+�
+EDA, correlation analysis, distribution testing, statistics for AI
+ML Deployment
+�
+Streamlit production apps, Pickle model serialization, automated PDF reporting
+�
+
+ Featured Projects
+�
+ FitVisionAI — AI Workout Form Analyzer
+�
+
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E0854,50:5A189A,100:9D4EDD&height=250&section=header&text=Niyati%20Singh&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Data%20Science%20Engineer&descAlignY=55&descSize=20" width="100%"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=800&color=9D4EDD&center=true&vCenter=true&width=600&lines=AI+%26+Data+Science+Undergraduate;Machine+Learning+%7C+Deep+Learning+%7C+NLP;Building+End-to-End+ML+Systems;Turning+Data+Into+Decisions" alt="Typing SVG" />
-
-<br/>
-
-![Academic](https://img.shields.io/badge/B.Tech-AI%20%26%20Data%20Science-5A189A?style=for-the-badge&logo=googlescholar&logoColor=white)
-![Location](https://img.shields.io/badge/Location-New%20Delhi%2C%20India-2E0854?style=for-the-badge&logo=googlemaps&logoColor=white)
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-5A189A?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/niyati-singh-667a35303)
-[![Email](https://img.shields.io/badge/Email-9D4EDD?style=for-the-badge&logo=gmail&logoColor=white)](mailto:withmeniyati@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-2E0854?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Niyatiiii06)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Niyatiiii06&color=9D4EDD&style=flat-square&label=Profile+Views)
-![Followers](https://img.shields.io/github/followers/Niyatiiii06?color=5A189A&style=flat-square&label=Followers)
-![Stars](https://img.shields.io/github/stars/Niyatiiii06?color=2E0854&style=flat-square&label=Stars)
-
-</div>
-
-<br/>
-
----
-
-## 🪐 About Me
-
-```
-const niyati = {
-    role: "AI & Data Science Undergraduate",
-    institution: "Dr. Akhilesh Das Gupta Institute of Professional Studies",
-    focus: ["Machine Learning", "Deep Learning", "NLP", "Data Analysis"],
-    approach: "Building complete, deployed systems — not just notebooks",
-    currentlyOpenTo: ["Data Science Internships", "ML Engineering Internships", "Research Collaborations"]
-};
-```
-
-I'm an AI & Data Science undergraduate who enjoys the full arc of a machine learning project — from raw, messy data to a deployed application someone can actually use. My work spans classical ML (fraud detection, ensemble models), NLP-driven recommendation systems, and I'm currently extending into deep learning and computer vision through a real-time exercise form-correction system.
-
-I care about models that are evaluated rigorously, not just trained — proper handling of class imbalance, threshold analysis, and interpretable metrics over vanity accuracy scores.
-
-**🎯 Open To:** Data Science / Machine Learning Internships · Research Collaborations · Open Source Contributions
-
-<br/>
-
----
-
-## 🛠️ Tech Stack
-
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=python,html,css" />
-
-**Machine Learning & Deep Learning**
-
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-9D4EDD?style=flat-square&logo=scikitlearn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-5A189A?style=flat-square&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-2E0854?style=flat-square&logo=keras&logoColor=white)
-![Deep Learning](https://img.shields.io/badge/ANN%20%7C%20CNN%20%7C%20RNN-9D4EDD?style=flat-square&logo=tensorflow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-9D4EDD?style=flat-square&logo=opencv&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-5A189A?style=flat-square&logo=google&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-2E0854?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-9D4EDD?style=flat-square&logo=pandas&logoColor=white)
-
-**NLP**
-
-![NLTK](https://img.shields.io/badge/NLTK-5A189A?style=flat-square&logo=python&logoColor=white)
-![spaCy](https://img.shields.io/badge/spaCy-2E0854?style=flat-square&logo=spacy&logoColor=white)
-
-**Data Analysis & Visualization**
-
-![Matplotlib](https://img.shields.io/badge/Matplotlib-9D4EDD?style=flat-square&logo=plotly&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-5A189A?style=flat-square&logo=powerbi&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-2E0854?style=flat-square&logo=microsoftexcel&logoColor=white)
-
-**Deployment & Tools**
-
-![Streamlit](https://img.shields.io/badge/Streamlit-9D4EDD?style=flat-square&logo=streamlit&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-5A189A?style=flat-square&logo=jupyter&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Colab-2E0854?style=flat-square&logo=googlecolab&logoColor=white)
-![Git](https://img.shields.io/badge/Git-9D4EDD?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-5A189A?style=flat-square&logo=visualstudiocode&logoColor=white)
-
-<br/>
-
----
-
-## 🧠 AI / ML Expertise
-
-| Domain | Proficiency | Details |
-|---|---|---|
-| **Classical Machine Learning** | ●●●●○ | Logistic Regression, Random Forest, KNN, Ensemble Learning, Clustering |
-| **Model Evaluation** | ●●●●○ | ROC-AUC, F1, Precision/Recall, Confusion Matrix, Threshold Analysis, SMOTE |
-| **Deep Learning** | ●●●○○ | ANN, CNN, RNN fundamentals and applied architectures |
-| **Natural Language Processing** | ●●●●○ | TF-IDF Vectorization, Cosine Similarity, Sentiment & Text Classification |
-| **Computer Vision** | ●●●○○ | Pose Estimation, Real-time Video Analysis |
-| **Model Deployment** | ●●●●○ | Streamlit, end-to-end pipeline design from notebook to live app |
-
-<br/>
-
----
-
-## 🚀 Featured Projects
-
-<details open>
-<summary><b>🔍 Credit Card Fraud Detection</b></summary>
-<br/>
-
-Built an end-to-end fraud detection pipeline addressing severe class imbalance in transaction data, comparing linear and ensemble models under rigorous, threshold-aware evaluation rather than raw accuracy.
-
-| Aspect | Detail |
-|---|---|
-| **Stack** | Python, Pandas, Scikit-learn, Streamlit |
-| **Technique** | EDA, Correlation Analysis, SMOTE, PCA (V1–V28) |
-| **Models Compared** | Logistic Regression vs. Random Forest |
-| **Best Result** | Random Forest — ROC-AUC of **0.9568** |
-| **Evaluation** | Confusion Matrix, Threshold Analysis, ROC-AUC |
-| **Deployment** | Live Streamlit web application |
-| **Repository** | [github.com/Niyatiiii06/credit-card-fraud-detection](https://github.com/Niyatiiii06/credit-card-fraud-detection/tree/main) |
-| **Live Demo** | [View App →](https://credit-card-fraud-detection-xzimsxbbjhsedjm7b7nean.streamlit.app/) |
-
-Performed exploratory data analysis and correlation analysis to understand feature relationships, then handled class imbalance using SMOTE before applying PCA across the anonymized V1–V28 feature set. Compared Logistic Regression against Random Forest, selecting the final model based on Confusion Matrix output, threshold analysis, and ROC-AUC rather than accuracy alone — critical given the inherently imbalanced nature of fraud data.
-
-</details>
-
-<br/>
-
-<details>
-<summary><b>🎵 Hybrid Music Recommendation System</b></summary>
-<br/>
-
-Engineered a hybrid recommendation engine combining audio-similarity search with NLP-based semantic matching across an 81K+ track dataset, designed for real-time discovery.
-
-| Aspect | Detail |
-|---|---|
-| **Stack** | Python, Pandas, Scikit-learn, Streamlit, NLP |
-| **Technique** | Nearest Neighbors (70%) + TF-IDF Semantic Matching (30%) |
-| **Scale** | 81,000+ tracks |
-| **Feature Engineering** | Converted numerical audio features into human-readable descriptors (mood, energy, danceability) |
-| **Similarity Method** | TF-IDF Vectorization + Cosine Similarity |
-| **Deployment** | Production-ready interactive Streamlit web app |
-| **Repository** | [github.com/Niyatiiii06/music-recommender](https://github.com/Niyatiiii06/music-recommender) |
-| **Live Demo** | [View App →](https://music-recommender-gxgeawq5lmz2572eud4cpn.streamlit.app/) |
-
-Combined a Nearest Neighbors–based audio similarity model with TF-IDF semantic NLP matching in a weighted hybrid architecture (70/30) to recommend musically and contextually relevant tracks. Engineered semantic descriptors from raw numerical audio features to make recommendations more interpretable and personalized, then deployed the full pipeline as a real-time interactive web application.
-
-</details>
-
-<br/>
-
-<details>
-<summary><b>🏋️ AI Gym Form Detection & Feedback (In Progress) 🚧</b></summary>
-<br/>
-
-A computer vision system that analyzes exercise form in real time using pose estimation, providing corrective feedback to reduce injury risk and improve workout quality.
-
-| Aspect | Detail |
-|---|---|
-| **Stack** | Python, OpenCV, MediaPipe, Deep Learning |
-| **Technique** | Pose Estimation, Joint Angle Analysis, CNN-based feedback |
-| **Status** | 🚧 Actively in development |
-| **Repository** | Coming soon |
-
-Currently building a real-time pose-estimation pipeline to track body landmarks during common gym exercises, computing joint angles to detect form deviations and generate corrective feedback. This project extends my work from classical ML into applied deep learning and computer vision.
-
-</details>
-
-<br/>
-
----
-
-## 🏆 Certifications
-
-<div align="center">
-
-![Udemy](https://img.shields.io/badge/Udemy-Python%20for%20Data%20Science%20%26%20Machine%20Learning%20Bootcamp-5A189A?style=for-the-badge&logo=udemy&logoColor=white)
-
-</div>
-
-<br/>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Niyatiiii06&show_icons=true&theme=radical&hide_border=true&bg_color=0D0221&title_color=9D4EDD&icon_color=9D4EDD&text_color=c9c9c9" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Niyatiiii06&theme=radical&hide_border=true&background=0D0221&stroke=9D4EDD&ring=9D4EDD&fire=5A189A&currStreakLabel=9D4EDD" width="49%" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Niyatiiii06&layout=compact&theme=radical&hide_border=true&bg_color=0D0221&title_color=9D4EDD&text_color=c9c9c9" width="49%" />
-
-</div>
-
-<br/>
-
----
-
-## 🏅 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Niyatiiii06&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=7" />
-
-</div>
-
-<br/>
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Niyatiiii06&theme=react-dark&hide_border=true&bg_color=0D0221&color=9D4EDD&line=9D4EDD&point=ffffff" width="100%"/>
-
-</div>
-
-<br/>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Niyatiiii06/Niyatiiii06/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-
-</div>
-
-<br/>
-
----
-
-## 🎯 Current Focus
-
-```yaml
+An end-to-end computer vision system that analyzes squat and push-up form from uploaded video, combining neural exercise-state classification with rule-based biomechanical scoring.
+
+
+Stack
+Python · TensorFlow/Keras · MediaPipe · OpenCV · Streamlit · ReportLab
+Scale
+Frame-by-frame pose-landmark extraction across full-length workout videos
+Performance
+Custom ANN classifiers trained on pose-landmark features with early stopping, feature scaling, and validation monitoring to reduce overfitting
+Architecture
+Hybrid pipeline — ANN exercise-state prediction fused with joint-angle threshold rules for repetition counting and posture scoring
+Impact
+Live workout metrics, session analytics, workout history, and automated PDF report generation
+Repository
+� �
+The core engineering challenge was fusing two fundamentally different signals: a learned classifier that recognizes what the body is doing, and deterministic biomechanics that judge how well it is doing it. MediaPipe extracts normalized pose landmarks per frame; the ANN maps those landmarks to exercise states, while a rule layer computes joint angles to count repetitions and grade posture. The result is feedback that is both adaptive and explainable — a user sees not just a score, but the specific joint that failed the threshold, exported as a shareable PDF session report.
+�
+
+�
+ Credit Card Fraud Detection
+�
+
+
+A production fraud-detection classifier built on severely imbalanced transaction data, with full threshold and cost-sensitivity analysis.
+
+
+Stack
+Python · Pandas · Scikit-learn · Streamlit
+Scale
+PCA-transformed V1–V28 transaction feature space
+Performance
+ROC-AUC 0.9568 — Random Forest outperforming the Logistic Regression baseline
+Security
+Anonymized PCA feature space; no raw cardholder data used in training or inference
+Impact
+Live web application returning real-time fraud probability with tunable decision thresholds
+Repository
+� �
+Fraud detection is a precision/recall trade-off problem disguised as a classification problem. The dataset's extreme class imbalance was corrected with SMOTE oversampling on the training split only — preserving an untouched, realistically imbalanced validation set. Model comparison was deliberately evaluated on ROC-AUC and confusion-matrix behavior rather than raw accuracy, and threshold analysis exposes how the operating point shifts the balance between missed fraud and false alarms.
+�
+
+�
+ Hybrid Music Recommendation System
+�
+
+
+A dual-signal recommender that blends audio-feature similarity with semantic NLP matching across an 81K+ track catalogue.
+
+
+Stack
+Python · Pandas · Scikit-learn · NLP (TF-IDF) · Streamlit
+Scale
+81,000+ tracks indexed for real-time retrieval
+Performance
+Weighted hybrid ranking — 70% Nearest Neighbors audio similarity, 30% TF-IDF cosine semantic match
+Architecture
+Semantic feature engineering converting numeric audio features into human-readable descriptors (mood, energy, danceability)
+Impact
+Production-ready interactive app for real-time music discovery with measurably improved recommendation relevance
+Repository
+� �
+Pure audio-similarity recommenders return technically adjacent but contextually irrelevant tracks. The fix was a second, semantic channel: numeric audio features were translated into natural-language descriptors, vectorized with TF-IDF, and compared by cosine similarity — then blended with the Nearest Neighbors audio signal at a 70/30 weighting. The hybrid preserves acoustic coherence while restoring the mood and intent that a listener actually searches with.
+�
+
+ Experience
+Independent Machine Learning Engineer  ·  Self-Directed Projects
+June 2026 — Present  ·  New Delhi, India
+Designing, training, and deploying production machine learning systems end to end — owning the full lifecycle from dataset acquisition and exploratory analysis through model selection, evaluation, and public deployment.
+Built and shipped three live ML applications spanning computer vision, imbalanced-data classification, and hybrid recommendation.
+Established a repeatable evaluation discipline — ROC-AUC, confusion matrices, and threshold analysis over headline accuracy.
+Engineered deep learning pipelines in TensorFlow/Keras with early stopping, feature scaling, and validation monitoring to control overfitting.
+Deployed and maintained public Streamlit applications with session analytics and automated PDF reporting.
+    
+�
+
+
+B.Tech, AI & Data Science  ·  Dr. Akhilesh Das Gupta Institute of Professional Studies
+August 2024 — August 2028  ·  New Delhi, India
+Undergraduate coursework and applied research spanning the full modern AI curriculum, with a consistent emphasis on translating theory into deployed systems.
+Core coursework: Machine Learning, Python for Data Science, Data Analysis, Natural Language Processing, Statistics for AI.
+Applied statistical inference and hypothesis testing to real datasets as the foundation for model validation.
+Extended classroom concepts into independently scoped, publicly deployed project work.
+   
+�
+
+
+Student Council Member  ·  St. Mary's School, Dwarka
+March 2012 — March 2024  ·  New Delhi, India
+Elected to the 2024 Student Council, leading event operations and cross-school coordination.
+Organized and ran the Interschool Model United Nations competition end to end.
+Coordinated logistics, scheduling, and delegate management across multiple participating institutions.
+  
+ Achievements
+�
+
+Recognition
+Details
+ROC-AUC 0.9568 — Fraud Detection
+Random Forest classifier outperforming the Logistic Regression baseline on a severely imbalanced transaction dataset
+81K+ Track Recommendation Engine
+Hybrid audio + semantic NLP system delivering real-time recommendations at catalogue scale
+3 Production ML Deployments
+Every trained model shipped as a publicly accessible, live Streamlit application
+End-to-End CV Pipeline
+Full pose-estimation workout analyzer built solo — data, model, biomechanics, UI, and PDF reporting
+2024 Student Council
+Elected member, St. Mary's School, Dwarka
+Interschool MUN Organizer
+Led planning and execution of a multi-school Model United Nations competition
+�
+
+ Certifications
+�
+
+Udemy
+�
+￼ 
+
+
+
+Academic Coursework — Dr. Akhilesh Das Gupta Institute
+�
+￼ ￼ ￼ ￼ ￼
+�
+
+
+Languages
+�
+￼ ￼
+�
+
+ Coding Profiles
+�
+
+�
+￼ ￼ 
+
+
+
+�
+￼ ￼ 
+�
+
+ GitHub Analytics
+�
+
+�
+￼ ￼
+
+
+
+�
+￼
+�
+
+ GitHub Trophies
+�
+
+�
+￼
+�
+
+ Contribution Activity
+�
+
+�
+￼
+�
+
+ Contribution Snake
+�
+
+�
+￼ 
+�
+
+ Current Focus
 learning:
-  - Deep Learning architectures (CNN, RNN) in applied settings
-  - Computer Vision & real-time pose estimation
-  - Advanced model deployment & MLOps fundamentals
+  - Advanced Deep Learning Architectures (CNN, RNN, Transformers)
+  - MLOps: model versioning, monitoring, and reproducible pipelines
+  - Advanced NLP: embeddings, transformer-based semantic search
+  - Cloud deployment for machine learning workloads
 
 building:
-  - AI-powered gym form detection & feedback system
+  - Production-grade computer vision systems with real-time inference
+  - Hybrid recommendation engines at 100K+ record scale
+  - Explainable ML pipelines with rigorous evaluation discipline
 
 exploring:
-  - Full-stack integration for ML-powered web applications
-  - Research in applied NLP
+  - Generative AI and large language model applications
+  - Model interpretability and fairness in high-stakes classification
+  - Edge deployment of lightweight vision models
 
 open_to:
-  - Data Science / ML Internships
-  - Research Collaborations
-  - Open Source Contributions
-```
+  - Machine Learning / Data Science internships
+  - AI research collaborations
+  - Open source contributions in the Python ML ecosystem
+  - Technical mentorship and peer code review
+ Connect
+�
 
-<br/>
+�
+￼ ￼ 
+�
 
----
 
-## 📬 Connect With Me
+�
+￼ ￼ 
+�
 
-<div align="center">
+�
 
-[![Gmail](https://img.shields.io/badge/withmeniyati@gmail.com-9D4EDD?style=for-the-badge&logo=gmail&logoColor=white)](mailto:withmeniyati@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-5A189A?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/niyati-singh-667a35303)
-[![GitHub](https://img.shields.io/badge/GitHub-2E0854?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Niyatiiii06)
-
-</div>
-
-<br/>
-
----
-
-<div align="center">
-
-*"Every model is a hypothesis — deployment is where it meets reality."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:9D4EDD,50:5A189A,100:2E0854&height=120&section=footer" width="100%"/>
-
-</div>
+"A model that never ships is just an expensive opinion."
+�
+￼
+�
