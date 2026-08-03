@@ -44,18 +44,18 @@
 
 <img align="right" width="280" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=8B5CF6&vCenter=true&width=280&height=100&lines=%3E+status%3A+building;%3E+focus%3A+agentic_AI;%3E+mode%3A+shipping" />
 
-Third-year **B.Tech Computer Science (Artificial Intelligence & Data Science)** student with a deep focus on **Generative AI, Large Language Models, and Agentic AI systems**. I engineer end-to-end **RAG pipelines**, orchestrate **multi-agent workflows** using LangGraph and CrewAI, and deploy **local LLMs** via OLLAMA and vLLM for low-latency, cloud-independent inference.
+Third-year **B.Tech Computer Science (Artificial Intelligence & Data Science)** student with a strong foundation in **Machine Learning, Deep Learning, and Natural Language Processing**. I build **end-to-end ML/DL pipelines** — from EDA and feature engineering to model training, evaluation, and deployment — using Python, Scikit-learn, and TensorFlow/Keras, with projects spanning computer vision, fraud detection, and recommendation systems.
 
-I approach AI engineering with a **product mindset** — every pipeline I build is designed to be measured, benchmarked, and made production-ready, not just prototyped. Driven by a genuine push to advance what autonomous, context-aware AI systems can do.
+Currently diving into **Generative AI and Retrieval-Augmented Generation (RAG)**, exploring how to combine LLMs with retrieval pipelines for more grounded, context-aware applications. Driven by a product mindset — every project I build is measured, evaluated, and deployed, not just prototyped.
 
 
 <details>
 <summary><b>🎯 Open To</b></summary>
 <br/>
 
-- AI/ML Engineering Internships & full-time roles
-- Research collaborations in RAG, Agentic AI & LLM inference optimization
-- Open-source contributions to LLM tooling ecosystems
+- AI/ML Engineering Internships
+- Projects & collaborations in GenAI, RAG, and NLP
+- Open-source contributions in the ML/DL ecosystem
 
 </details>
 
