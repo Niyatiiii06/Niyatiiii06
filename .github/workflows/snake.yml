@@ -26,13 +26,15 @@ jobs:
     steps:
       - name: Generate snake animation
         uses: Platane/snk@v3
-        id: snake-gif
+        id: snake
         with:
-          github_user_name: ${{ Niyatiiii06 }}
+          # Plain string — NOT ${{ Niyatiiii06 }}. Inside ${{ }} the value is read as
+          # a context/variable name, not text, so it evaluates to empty and the whole
+          # workflow dies with a startup_failure before any step runs.
+          github_user_name: Niyatiiii06
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-light
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#8B5CF6
-            dist/github-contribution-grid-snake.gif?color_snake=#8B5CF6&color_dots=#161B22,#4C1D95,#6D28D9,#8B5CF6,#A78BFA
 
       - name: Push snake animation to the output branch
         uses: crazy-max/ghaction-github-pages@v4
