@@ -39,13 +39,25 @@
 
 ## 🧠 About
 
-<div align="center">
 
-<!-- Rendered as a committed SVG (assets/about.svg) instead of a plain ``` fence so the
-     section carries the same visual weight as the rest of the page. -->
-<img width="100%" alt="niyati_singh.py — role: AI &amp; Data Science Engineer · education: B.Tech, AI &amp; Data Science (2024-2028) · focus: Machine Learning, Deep Learning, Computer Vision, NLP · stack: Python, TensorFlow/Keras, Scikit-learn, Streamlit · mindset: ship models that survive contact with real data" src="https://raw.githubusercontent.com/Niyatiiii06/Niyatiiii06/main/assets/about.svg" />
+## 🧠 About Me
 
-</div>
+<img align="right" width="280" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=8B5CF6&vCenter=true&width=280&height=100&lines=%3E+status%3A+building;%3E+focus%3A+agentic_AI;%3E+mode%3A+shipping" />
+
+Third-year **B.Tech Computer Science (Artificial Intelligence & Data Science)** student with a deep focus on **Generative AI, Large Language Models, and Agentic AI systems**. I engineer end-to-end **RAG pipelines**, orchestrate **multi-agent workflows** using LangGraph and CrewAI, and deploy **local LLMs** via OLLAMA and vLLM for low-latency, cloud-independent inference.
+
+I approach AI engineering with a **product mindset** — every pipeline I build is designed to be measured, benchmarked, and made production-ready, not just prototyped. Driven by a genuine push to advance what autonomous, context-aware AI systems can do.
+
+
+<details>
+<summary><b>🎯 Open To</b></summary>
+<br/>
+
+- AI/ML Engineering Internships & full-time roles
+- Research collaborations in RAG, Agentic AI & LLM inference optimization
+- Open-source contributions to LLM tooling ecosystems
+
+</details>
 
 I build **end-to-end machine learning systems** — from raw data and exploratory analysis through model
 training, evaluation, and live deployment. My work sits at the intersection of **applied AI research and
