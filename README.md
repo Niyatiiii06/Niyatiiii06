@@ -39,26 +39,37 @@
 
 ## 🧠 About
 
-```python
-class NiyatiSingh:
-    def __init__(self):
-        self.role      = "AI & Data Science Engineer"
-        self.education = "B.Tech, AI & Data Science (2024-2028)"
-        self.focus     = ["Machine Learning", "Deep Learning", "Computer Vision", "NLP"]
-        self.stack     = ["Python", "TensorFlow/Keras", "Scikit-learn", "Streamlit"]
-        self.mindset   = "Ship models that survive contact with real data."
-```
+<div align="center">
+
+<!-- Rendered as a committed SVG (assets/about.svg) instead of a plain ``` fence so the
+     section carries the same visual weight as the rest of the page. -->
+<img width="100%" alt="niyati_singh.py — role: AI &amp; Data Science Engineer · education: B.Tech, AI &amp; Data Science (2024-2028) · focus: Machine Learning, Deep Learning, Computer Vision, NLP · stack: Python, TensorFlow/Keras, Scikit-learn, Streamlit · mindset: ship models that survive contact with real data" src="https://raw.githubusercontent.com/Niyatiiii06/Niyatiiii06/main/assets/about.svg" />
+
+</div>
 
 I build **end-to-end machine learning systems** — from raw data and exploratory analysis through model
 training, evaluation, and live deployment. My work sits at the intersection of **applied AI research and
 product engineering**: I care as much about ROC-AUC and generalization as I do about the interface a
 user actually touches.
 
-- **Machine Learning Engineering** — supervised, unsupervised, and ensemble methods with rigorous evaluation (ROC-AUC, F1, precision/recall, threshold analysis) and imbalance handling via SMOTE.
-- **Deep Learning & Computer Vision** — ANN/CNN/RNN architectures in TensorFlow/Keras, pose estimation pipelines with MediaPipe and OpenCV, early stopping and validation monitoring against overfitting.
-- **Natural Language Processing** — TF-IDF vectorization, cosine similarity, semantic feature engineering, sentiment analysis, and text classification at 81K+ record scale.
-- **Product Engineering Mindset** — every model I train gets deployed. Three production Streamlit applications, live and publicly accessible, with session analytics and automated reporting.
-- **Data Analysis & Storytelling** — EDA, correlation analysis, statistical inference, and Power BI dashboards that turn model output into decisions.
+| Focus area | In practice |
+| :--- | :--- |
+| ![Machine Learning Engineering](https://img.shields.io/badge/Machine%20Learning%20Engineering-4C1D95?style=flat-square&labelColor=0D1117) | Supervised, unsupervised, and ensemble methods with rigorous evaluation — ROC-AUC, F1, precision/recall, threshold analysis — and imbalance handling via SMOTE |
+| ![Deep Learning & Computer Vision](https://img.shields.io/badge/Deep%20Learning%20%26%20Computer%20Vision-5B21B6?style=flat-square&labelColor=0D1117) | ANN/CNN/RNN architectures in TensorFlow/Keras, pose-estimation pipelines with MediaPipe and OpenCV, early stopping and validation monitoring against overfitting |
+| ![Natural Language Processing](https://img.shields.io/badge/Natural%20Language%20Processing-6D28D9?style=flat-square&labelColor=0D1117) | TF-IDF vectorization, cosine similarity, semantic feature engineering, sentiment analysis, and text classification at 81K+ record scale |
+| ![Product Engineering](https://img.shields.io/badge/Product%20Engineering-7C3AED?style=flat-square&labelColor=0D1117) | Every model I train gets deployed — three production Streamlit applications, live and publicly accessible, with session analytics and automated reporting |
+| ![Data Analysis & Storytelling](https://img.shields.io/badge/Data%20Analysis%20%26%20Storytelling-8B5CF6?style=flat-square&labelColor=0D1117) | EDA, correlation analysis, statistical inference, and Power BI dashboards that turn model output into decisions |
+
+<div align="center">
+
+**Open To**
+
+<img alt="Open to machine learning internships" src="https://img.shields.io/badge/Machine%20Learning%20Internships-Open-8B5CF6?style=for-the-badge&labelColor=0D1117" />
+<img alt="Open to data science roles" src="https://img.shields.io/badge/Data%20Science%20Roles-Open-6366F1?style=for-the-badge&labelColor=0D1117" />
+<img alt="Open to AI research collaborations" src="https://img.shields.io/badge/AI%20Research%20Collaborations-Open-7C3AED?style=for-the-badge&labelColor=0D1117" />
+<img alt="Open to open source contributions" src="https://img.shields.io/badge/Open%20Source%20Contributions-Open-A78BFA?style=for-the-badge&labelColor=0D1117" />
+
+</div>
 
 ---
 
